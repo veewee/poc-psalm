@@ -19,8 +19,6 @@ jobs:
                   php-version: ${{ matrix.php-versions }}
             - name: Check PHP Version
               run: php -v
-            - name: Validate composer.json and composer.lock
-              run: composer validate
             - name: Install dependencies
               run: composer install
             - name: Run the tests
