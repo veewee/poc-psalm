@@ -11,3 +11,6 @@ function x($data): array {
 
 x(['string' => 'string']);
 
+
+/** @psalm-assert string $x  */
+$x = pathinfo("./poc.php", PATHINFO_DIRNAME);
