@@ -1,0 +1,17 @@
+{
+    "name": "verweto/poc-psalm",
+    "authors": [
+        {
+            "name": "Toon Verwerft",
+            "email": "toonverwerft@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": "7.*"
+    }
+}
