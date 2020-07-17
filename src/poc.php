@@ -42,7 +42,7 @@ class ExtendedCollection extends Collection
 
 // ==================================================================================================================
 
-/**@template X */
+/** @template X */
 class Foo {}
 
 /** @return \Generator<int, Foo<string>, mixed, void> */
