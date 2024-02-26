@@ -15,12 +15,15 @@ x(['string' => 'string']);
 // ==================================================================================================================
 
 /** @psalm-assert string $x  */
-$x = pathinfo("./poc.php", PATHINFO_DIRNAME);
+$_x = pathinfo("./poc.php", PATHINFO_DIRNAME);
 
 
 // ==================================================================================================================
 
 
+/**
+ * @implements IteratorAggregate<mixed>
+ */
 class Collection implements IteratorAggregate
 {
     public function getIterator()
